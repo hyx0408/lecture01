@@ -16,6 +16,7 @@ public class MyClass {
             String[] saySamething = Arrays.copyOf(sayArray,sayArray.length);
             for(String word : sayArray)
                 System.out.print(word+' ');
+            
             System.out.println();
         }
     }
